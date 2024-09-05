@@ -20,11 +20,12 @@
 6) Descargar un Administrador de base de datos y crear una base de datos MySql
 7) Crear una carpeta dentro del directorio de Wamp "C:\wamp64\www"
 8) Descargar el proyecto desde GitHub dentro de la carpeta anteriormente creada
-9) Iniciar una consola de comando dentro de la carpeta del proyecto
-10) Ejecutar: 
+9) Descargar el archivo .env enviado en la raiz del proyecto y definir los datos de conexión a la base de datos (usuario y contraseña, ej: DB_USERNAME=root, DB_PASSWORD= ) y el APP_URL donde se ejecute laravel (ej: http://127.0.0.1:8000/)
+10) Iniciar una consola de comando dentro de la carpeta del proyecto
+11) Ejecutar: 
 * composer install 
 * npm install
-11) Buscar el archivo .env en la raiz del proyecto y definir los datos de conexión a la base de datos (usuario y contraseña, ej: DB_USERNAME=root, DB_PASSWORD= ) y el APP_URL donde se ejecute laravel (ej: http://127.0.0.1:8000/)
+* npm run build
 12) Ejecutar: 
 * php artisan config:cache
 * php artisan migrate
